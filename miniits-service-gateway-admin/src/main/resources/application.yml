@@ -1,0 +1,15 @@
+server:
+  port: 4532
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 800
+    accept-count: 800
+
+spring:
+  messages:
+    basename: message
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:30000/eureka/
